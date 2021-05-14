@@ -1,0 +1,139 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*layout共同佈局*/
+
+html, body{
+    background: #000;
+}
+
+.wrap{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    height: 600px;
+    background-image: url(/img/DSCF0598.JPG);
+    opacity: 0.95;
+    background-size: cover
+}
+
+.homepage{
+    display: flex;
+}
+
+
+a{
+    font-size: 14px;
+    margin: 20px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height:50px;
+}
+
+a:hover{
+    font-size: 14px;
+    margin: 20px;
+    color:#FF5900;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height:50px;
+}
+
+
+h1{
+    font-size: 72px;
+    text-align: left;
+    font-weight: 700;
+    line-height: 90px;
+    margin: 100px;
+    color:#fff;
+}
+
+h1:hover{
+    transform: rotate(-5deg);
+}
+
+
+
+.content{
+    padding: 60px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+img{
+    width: 300px;
+}
+img:hover{
+    cursor: zoom-in;
+    width: 700px;
+    transition:all 0.6s ease-in-out; 
+}
+
+h2{
+    color:#FAF900;
+    text-align: center;
+}
+
+
+
+
