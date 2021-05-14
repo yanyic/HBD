@@ -62,7 +62,7 @@ html, body{
     display: flex;
     justify-content: flex-end;
     height: 600px;
-    background-image: url(../"DSCF0598.JPG");
+    background-image: url("../DSCF0598.JPG");
     opacity: 0.95;
     background-size: cover
 }
