@@ -132,6 +132,18 @@ img:hover{
     opacity: 100%;
 }
 
+.cat a{
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 50px;
+    opacity: 0%;
+}
+.cat a:hover{
+    cursor: default;
+    opacity: 100%;
+}
+
 
 
 
